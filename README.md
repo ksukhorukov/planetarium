@@ -35,9 +35,9 @@ planetlab1.informatik.uni-wuerzburg.de
 * `./add_nodes.txt alive.txt`
 *  Edit your ~/.ssh/config add this line at the bottom:
 
-			```
+		
 			StrictHostKeyChecking no
-			```
+			
 
 * Execute: 
   `./uploader.rb`
