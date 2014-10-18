@@ -7,7 +7,7 @@ module PlanetlabConfig
      :password => 'your_password', 
      :slice_name => 'slice_name',
      #optional:
-     :target_file_name => '422773_phonehome.py', 
+     :target_file_name => 'your_prefix_here_eg_777_phonehome.py', 
      :upload_file => 'phonehome.py'
 		}
 	def self.params
