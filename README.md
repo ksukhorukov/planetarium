@@ -32,7 +32,7 @@ planetlab1.informatik.uni-wuerzburg.de
   `chmod +x *.rb && chmod +x *.php && chmod +x *.py`
 * Upload *.php scripts to your webserver directory, create there phonelog.txt, set it writable. Set PHP scripts executable.
 * `./pinger.rb nodes.txt`
-* `./add_nodes.txt alive.txt`
+* `./add_nodes.rb alive.txt`
 *  Edit your ~/.ssh/config add this line at the bottom:
 
 		
