@@ -3,7 +3,7 @@ Instructions:
 1) $ gem install bundler
    $ bundle install
 
-2) edit config.rb and enter there your credentials
+2) edit config.rb and enter there your credentials, also edit planetlab.py 
 3) go to http://monitor.planet-lab.eu/monitor/node 
    filter nodes by status, form a huge list of nodes, one hostname perline.
 
