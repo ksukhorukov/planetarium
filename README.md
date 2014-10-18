@@ -1,10 +1,12 @@
 ## Instructions
 
-*  ```$ gem install bundler
+* Execute:
+
+ ```$ gem install bundler
    $ bundle install```
 
-*  edit config.rb and enter there your credentials, also edit planetlab.py 
-*  go to http://monitor.planet-lab.eu/monitor/node 
+*  Edit config.rb and enter there your credentials, also edit planetlab.py 
+*  Go to http://monitor.planet-lab.eu/monitor/node 
    filter nodes by status, form a huge list of nodes, one hostname perline.
 
 It can be done with parser:
@@ -24,14 +26,16 @@ planetlab1.informatik.uni-wuerzburg.de
 ```
 
 
-* chmod +x *.rb && chmod +x *.php && chmod +x *.py
-* upload php scripts to your webserver directory, create there phonelog.txt, set it writable. Set PHP scripts executable.
+* Execute:
+  `chmod +x *.rb && chmod +x *.php && chmod +x *.py`
+* Upload *.php scripts to your webserver directory, create there phonelog.txt, set it writable. Set PHP scripts executable.
 * `./pinger.rb nodes.txt`
 * `./add_nodes.txt alive.txt`
-*  edit your ~/.ssh/config add this line at the bottom:
+*  Edit your ~/.ssh/config add this line at the bottom:
 
 			`StrictHostKeyChecking no`
 
-* `./uploader.rb`
-* check http://address.ofyour.webserver.com/planetlab/phobelog.php
-* open 'hello_world.kml' file in Google Earth
+* Execute: 
+  `./uploader.rb`
+* Check http://address.ofyour.webserver.com/planetlab/phobelog.php
+* Open 'hello_world.kml' file in Google Earth
