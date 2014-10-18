@@ -2,8 +2,9 @@
 
 * Execute:
 
- ```$ gem install bundler
-   $ bundle install```
+ ```gem install bundler
+    bundle install
+ ```
 
 *  Edit config.rb and enter there your credentials, also edit planetlab.py 
 *  Go to http://monitor.planet-lab.eu/monitor/node 
