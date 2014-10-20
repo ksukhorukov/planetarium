@@ -28,8 +28,7 @@ planetlab1.informatik.uni-wuerzburg.de
 ```
 
 
-* Execute:
-  `chmod +x *.rb && chmod +x *.php && chmod +x *.py`
+* Execute: `chmod +x *.rb`
 * Upload *.php scripts to your webserver directory, create there phonelog.txt, set it writable. Set PHP scripts executable.
 * `./pinger.rb nodes.txt > alive.txt`
 * `./add_nodes.rb alive.txt`
